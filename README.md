@@ -1,1 +1,1 @@
-# SCIMET
+# SCIMET is a computational inference framework based on spatial tumor evolution modeling and Approximate Bayesian Computation (ABC) to quantify the evolutionary dynamics of metastasis (Hu et al. 2019, upcoming).
