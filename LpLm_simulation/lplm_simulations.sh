@@ -12,4 +12,4 @@ REPLICATE=`echo $NAME | awk '{print $2}'`
 
 source ~/.bashrc
 
-./TumorSimul3D_PMGD_4models.py $REPLICATE $MODEL
+./TumorSimul3D_LpLm_4models.py $REPLICATE $MODEL
