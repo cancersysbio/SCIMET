@@ -3,6 +3,8 @@
 ######################
 #Simulation of the partion history of sampled demes in primary tumor
 #4 bulk samples (named "A","B","C","D")  wered sampled at the time when metastasis size is 10^9 cells
+#
+#Output: deme phylogenetic trees in newick format
 ######################
 
 import sys,os,math,random
