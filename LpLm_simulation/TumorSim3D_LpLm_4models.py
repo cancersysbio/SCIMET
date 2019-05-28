@@ -466,7 +466,7 @@ model = str(sys.argv[2])        #model - NN, NS. SN, or SS
 
 rd = 60                         #radius of the 3D space
 deme_size = 5000
-final_tumor_size = pow(10,8)    #final tumor size in cell number
+final_tumor_size = pow(10,9)    #final tumor size in cell number
 final_deme_number = final_tumor_size/deme_size  #number of demes in final tumor
 mut_rate = 0.3                  #mutation rate per cell division in exonic regions
 p_birth_rate = 0.55             #cell birth probability for primary tumor
@@ -482,7 +482,7 @@ m_birth_rate = 0.55             #cell birth probability for metastatic tumor
 #p_adv_rate = pow(10,-5)         #rate of advantageous mutations in primary tumor
 #m_adv_rate = pow(10,-5)         #rate of advantageous mutations in metastasis
 
-td = pow(10,random.uniform(2,8)) ##primary tumor size at the time of dissemination
+td = pow(10,random.uniform(2,9)) ##primary tumor size at the time of dissemination
 
 if model == "NN" or model == "NS":
     p_adv_rate = 0              #rate of advantageous mutations in primary tumor
