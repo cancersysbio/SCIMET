@@ -1,12 +1,13 @@
 #! /usr/bin/python
 
-############################################################################
-## A agent-based framework to simulate colon cancer growth and metastasis ##
-## Spatial model: pripheral growth                                        ##
-## Evolution model: N/N, N/S, S/N, S/S                                    ##
-## Author: Zheng Hu                                                       ##
-## Date: 11/9/2017                                                        ##
-############################################################################
+######################################################################################
+## An agent-based framework to simulate colon cancer growth and metastasis          ##
+## Spatial model: pripheral growth                                                  ##
+## Evolution model: N/N, N/S, S/N, S/S                                              ##
+## Output: Lp, Lm - number of primary-private and metastasis-private clonal SSNVs   ##
+## Author: Zheng Hu                                                                 ##
+## Date: 11/9/2017                                                                  ##
+######################################################################################
 
 import sys,os,math,random
 import numpy as np
