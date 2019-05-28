@@ -275,7 +275,7 @@ pop_size = 200000               #number of demes in final tumor
 
 send_tree = open("tumor3D_primary4samples_Nd"+str(met_time)+".tree"+str(repl),"w")
 
-for w in range(0,100):
+for w in range(0,10):
     seeding_node = node()
     seeding_node.index = 0
     seeding_node.isroot = 1
